@@ -15,7 +15,7 @@
     // })
 
     $.ajax({
-      url: `https://api.github.com/penssake/repos`,
+      url: `https://api.github.com/users/repos`,
       type: 'GET',
       headers: {'Authorization': `token ${githubToken}`}
     })
